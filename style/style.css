@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/digital-7-mono");
+@import url("https://fonts.cdnfonts.com/css/chubiy");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +17,8 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-image: linear-gradient(to bottom left, #8d9eff, #8d72e1);
+  overflow: hidden;
+  background-image: linear-gradient(to bottom left, #56042c, #56045c);
 }
 
 .container {
@@ -45,4 +48,49 @@ body {
 .container .top .kub:hover,
 .container .top .svern:hover {
   color: rgb(69, 71, 71);
+}
+
+.boxes {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 15px 15px;
+}
+.boxes .box {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom left, #9772fb, #764af1);
+}
+.boxes .box .tit {
+  font-size: 20px;
+  color: #eeeeee;
+}
+.boxes .box .num {
+  width: 90%;
+  height: 70%;
+  font-size: 75px;
+  text-align: center;
+  background: #eeeeee;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: "Digital-7", sans-serif;
+  color: red;
+}
+
+.top_title {
+  margin-top: 300px;
+  position: absolute;
+  text-align: center;
+  font-size: 80px;
+  color: #1c5d9c;
+  font-family: "Chubiy", sans-serif;
 }/*# sourceMappingURL=style.css.map */
